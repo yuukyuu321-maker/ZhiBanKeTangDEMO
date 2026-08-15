@@ -1,0 +1,45 @@
+\set ON_ERROR_STOP on
+
+\if :{?runtime_password}
+\else
+\echo 'runtime_password is required: psql -v runtime_password=...'
+\quit 1
+\endif
+
+SELECT format(
+    'CREATE ROLE athena_app LOGIN NOINHERIT NOSUPERUSER NOCREATEDB NOCREATEROLE NOREPLICATION NOBYPASSRLS PASSWORD %L',
+    :'runtime_password'
+)
+WHERE NOT EXISTS (
+    SELECT 1
+    FROM pg_roles
+    WHERE rolname = 'athena_app'
+)
+\gexec
+
+SELECT format(
+    'ALTER ROLE athena_app LOGIN NOINHERIT NOSUPERUSER NOCREATEDB NOCREATEROLE NOREPLICATION NOBYPASSRLS PASSWORD %L',
+    :'runtime_password'
+)
+\gexec
+
+SELECT format(
+    'GRANT CONNECT ON DATABASE %I TO athena_app',
+    current_database()
+)
+\gexec
+
+GRANT USAGE ON SCHEMA public TO athena_app;
+GRANT EXECUTE ON FUNCTION athena_current_school_id() TO athena_app;
+GRANT SELECT ON
+    textbook_editions,
+    textbook_sources,
+    textbook_pages,
+    textbook_evidence,
+    teaching_groups,
+    principal_teaching_scopes,
+    textbook_assignments,
+    workspace_textbook_pins
+TO athena_app;
+
+ALTER ROLE athena_app SET row_security = on;

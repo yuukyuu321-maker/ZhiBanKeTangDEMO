@@ -1,0 +1,10 @@
+{
+  "name": "project-athena",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "web:dev": "pnpm --dir apps/textbook-knowledge-web dev",
+    "web:build": "pnpm --dir apps/textbook-knowledge-web build",
+    "web:typecheck": "pnpm --dir apps/textbook-knowledge-web typecheck"
+  }
+}

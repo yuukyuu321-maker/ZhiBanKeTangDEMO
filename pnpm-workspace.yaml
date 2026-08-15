@@ -1,0 +1,4 @@
+packages:
+  - "apps/textbook-knowledge-web"
+allowBuilds:
+  esbuild: true

@@ -1,0 +1,42 @@
+# Local secrets and environment
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.venv/
+dist/
+build/
+*.egg-info/
+
+# JavaScript
+node_modules/
+apps/textbook-knowledge-web/dist/
+*.tsbuildinfo
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local textbook sources and generated page assets
+data/sources/
+data/renders/
+data/exports/
+data/imports/
+tmp/
+output/
+data/import-candidates/
+data/import-archive/
+
+# Coverage and test artifacts
+.coverage
+coverage.xml
+htmlcov/
+playwright-report/
+test-results/

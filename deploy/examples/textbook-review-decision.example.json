@@ -1,0 +1,16 @@
+{
+  "reviewer": "replace-with-reviewer-id",
+  "decision": "approve",
+  "checked_categories": [
+    "cover",
+    "contents",
+    "chapter_start",
+    "body",
+    "experiment",
+    "formula_or_figure",
+    "appendix"
+  ],
+  "sampled_pages": [1, 5, 9, 20, 172, 218],
+  "issues": [],
+  "notes": "Replace this example with the actual review evidence."
+}

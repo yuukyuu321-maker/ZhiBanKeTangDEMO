@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 960" role="img" aria-labelledby="title description">
+  <title id="title">合成教材证据页面</title>
+  <description id="description">用于测试页面定位与区域高亮，不含真实教材内容。</description>
+  <rect width="680" height="960" fill="#f8f5ed"/>
+  <rect x="32" y="28" width="616" height="904" rx="10" fill="#fffef9" stroke="#d9d3c4" stroke-width="2"/>
+  <text x="70" y="82" fill="#557169" font-family="Microsoft YaHei, sans-serif" font-size="18">合成教材 · 科学</text>
+  <text x="70" y="132" fill="#1f302c" font-family="Microsoft YaHei, sans-serif" font-size="34" font-weight="700">空气的组成</text>
+  <line x1="70" y1="158" x2="610" y2="158" stroke="#b5c8c1" stroke-width="3"/>
+  <text x="70" y="208" fill="#31443f" font-family="Microsoft YaHei, sans-serif" font-size="19">观察：密闭容器中的气体由多种成分构成。</text>
+  <rect x="60" y="248" width="560" height="118" rx="12" fill="#e9f3ef"/>
+  <text x="82" y="290" fill="#1d4339" font-family="Microsoft YaHei, sans-serif" font-size="20" font-weight="700">教材证据示例</text>
+  <text x="82" y="329" fill="#2a3c37" font-family="Microsoft YaHei, sans-serif" font-size="18">此段为合成内容，仅用于验证证据区域高亮。</text>
+  <text x="70" y="424" fill="#31443f" font-family="Microsoft YaHei, sans-serif" font-size="19">思考：如何用可观察现象支持上述结论？</text>
+  <rect x="70" y="466" width="540" height="150" rx="8" fill="#f4f1e7" stroke="#ddd5c4"/>
+  <circle cx="158" cy="540" r="42" fill="#91b6aa"/>
+  <circle cx="262" cy="540" r="30" fill="#d1a96d"/>
+  <circle cx="350" cy="540" r="22" fill="#96a9c9"/>
+  <text x="424" y="528" fill="#40534d" font-family="Microsoft YaHei, sans-serif" font-size="17">示意图</text>
+  <text x="424" y="558" fill="#6a7773" font-family="Microsoft YaHei, sans-serif" font-size="15">不同颜色代表不同成分</text>
+  <text x="70" y="682" fill="#31443f" font-family="Microsoft YaHei, sans-serif" font-size="19">课堂活动：记录现象，区分观察、推断与结论。</text>
+  <line x1="70" y1="730" x2="610" y2="730" stroke="#ddd8cc"/>
+  <line x1="70" y1="782" x2="610" y2="782" stroke="#ddd8cc"/>
+  <line x1="70" y1="834" x2="610" y2="834" stroke="#ddd8cc"/>
+  <text x="340" y="900" text-anchor="middle" fill="#7a817e" font-family="Microsoft YaHei, sans-serif" font-size="15">合成页面 2</text>
+</svg>

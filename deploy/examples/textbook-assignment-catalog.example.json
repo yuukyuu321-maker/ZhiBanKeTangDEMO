@@ -1,0 +1,41 @@
+{
+  "schema_version": "athena.textbook-assignment-catalog.v1",
+  "editions": [
+    {
+      "edition_id": "synthetic-science-grade8-volume2",
+      "source_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "status": "active"
+    }
+  ],
+  "assignments": [
+    {
+      "assignment_id": "assignment-grade8-science-2026",
+      "scope": {
+        "school_id": "school-demo",
+        "academic_year": "2026-2027",
+        "grade": "八年级",
+        "subject": "科学",
+        "campus_id": null,
+        "class_id": null
+      },
+      "edition_id": "synthetic-science-grade8-volume2",
+      "source_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "valid_from": "2026-09-01",
+      "valid_until": "2027-08-31",
+      "assigned_by": "textbook-admin-demo"
+    }
+  ],
+  "authorizations": [
+    {
+      "principal_id": "teacher-demo",
+      "scope": {
+        "school_id": "school-demo",
+        "academic_year": "2026-2027",
+        "grade": "八年级",
+        "subject": "科学",
+        "campus_id": null,
+        "class_id": null
+      }
+    }
+  ]
+}
